@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "media_type": "tv",
+      "id": 95350,
+      "name": "Lanterns",
+      "first_air_date": "2026-08-16",
+      "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "poster_path": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "backdrop_path": "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
+      "vote_average": 8.15,
+      "genre_ids": [18, 9648, 10765]
+    },
+    {
+      "media_type": "tv",
+      "id": 108978,
+      "name": "Reacher",
+      "first_air_date": "2022-02-03",
+      "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
+      "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "backdrop_path": "/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+      "vote_average": 8.1,
+      "genre_ids": [10759, 18, 80]
+    }
+  ]
+}

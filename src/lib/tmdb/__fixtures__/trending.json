@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "media_type": "movie",
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "release_date": "2026-07-29",
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him-and the pressure of seeing his old friends move on without him-sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "poster_path": "/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
+      "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+      "vote_average": 7.9,
+      "genre_ids": [28, 12, 878]
+    },
+    {
+      "media_type": "tv",
+      "id": 95350,
+      "name": "Lanterns",
+      "first_air_date": "2026-08-16",
+      "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "poster_path": "/9WvY1jicpfYLA6KoczwvdMRNGvc.jpg",
+      "backdrop_path": "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
+      "vote_average": 7.923,
+      "genre_ids": [10765, 18, 80]
+    }
+  ]
+}

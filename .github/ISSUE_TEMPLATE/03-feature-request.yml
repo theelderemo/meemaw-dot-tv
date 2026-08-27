@@ -1,0 +1,58 @@
+name: Feature idea
+description: Propose something new. An issue costs a minute; an unmergeable PR costs an evening.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You're in the right place - features start here, never as a surprise PR.
+        Fair warning before you type: restraint is the feature. The omissions
+        (signups, subtitles, trailers, multi-profile switching) are decisions with
+        reasons that still hold, and UI "improvements" are declined however good
+        they are. The rules live in [CONTRIBUTING.md](../blob/HEAD/CONTRIBUTING.md);
+        the reasoning in [docs/reference/ui-fidelity.md](../blob/HEAD/docs/reference/ui-fidelity.md).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The household problem
+      description: What can a viewer or operator not do today? Lead with the problem, not the solution - "Meemaw can't find her show again after..." beats "add a button that...".
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change (optional)
+      description: If you have a shape in mind. Remember the bar - a non-technical viewer must be able to use it unassisted, without learning anything new.
+
+  - type: dropdown
+    id: omissions
+    attributes:
+      label: Does this touch a deliberate omission?
+      options:
+        - "No"
+        - Subtitles (an open decision still being weighed)
+        - Signups, trailers, or multi-profile (declined - I've read why and I'm making a new case)
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: dependencies
+    attributes:
+      label: New dependencies
+      description: The dependency list is short on purpose. Which package(s), and what can't the existing ones cover?
+      placeholder: none
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Ground rules
+      options:
+        - label: I've read the scope rules in CONTRIBUTING.md.
+          required: true
+        - label: I understand this is a spare-time project with no SLA - the idea may sit, or be declined with thanks.
+          required: true

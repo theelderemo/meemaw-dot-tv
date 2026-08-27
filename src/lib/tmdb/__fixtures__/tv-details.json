@@ -1,0 +1,116 @@
+{
+  "id": 1668,
+  "name": "Friends",
+  "first_air_date": "1994-09-22",
+  "overview": "Six young people from New York City, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.",
+  "poster_path": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+  "backdrop_path": "/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg",
+  "vote_average": 8.414,
+  "number_of_seasons": 10,
+  "seasons": [
+    {
+      "season_number": 0,
+      "air_date": "2001-02-15",
+      "name": "Specials",
+      "episode_count": 39
+    },
+    {
+      "season_number": 1,
+      "air_date": "1994-09-22",
+      "name": "Season 1",
+      "episode_count": 24
+    },
+    {
+      "season_number": 2,
+      "air_date": "1995-09-21",
+      "name": "Season 2",
+      "episode_count": 24
+    },
+    {
+      "season_number": 3,
+      "name": "Season 3",
+      "episode_count": 0
+    }
+  ],
+  "genres": [
+    {
+      "name": "Comedy"
+    }
+  ],
+  "external_ids": {
+    "imdb_id": "tt0108778"
+  },
+  "credits": {
+    "cast": [
+      {
+        "id": 4491,
+        "name": "Jennifer Aniston",
+        "character": "Rachel Green",
+        "profile_path": "/PBSCmHDFdCMBhjx0EbXpTw4Z94.jpg"
+      },
+      {
+        "id": 14405,
+        "name": "Courteney Cox",
+        "character": "Monica Geller",
+        "profile_path": "/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg"
+      },
+      {
+        "id": 14406,
+        "name": "Lisa Kudrow",
+        "character": "Phoebe Buffay",
+        "profile_path": "/ziatnwJRiBJIcc8jlk6xoClhfOy.jpg"
+      }
+    ]
+  },
+  "recommendations": {
+    "results": [
+      {
+        "backdrop_path": "/pIPMPMEZErCxTvQG9HDt4AsnAfn.jpg",
+        "first_air_date": "1998-09-21",
+        "id": 4454,
+        "name": "Will & Grace",
+        "overview": "Will Truman and Grace Adler are best friends living in New York, and when Grace's engagement falls apart, she moves in with Will. Together, along with their friends, they go through the trials of dating, sex, relationships and their careers, butting heads at times but ultimately supporting one another while exchanging plenty of witty banter along the way.",
+        "poster_path": "/aEaYdyHcpHN3fIXHhXHtXOs8Rtk.jpg",
+        "vote_average": 6.9
+      },
+      {
+        "backdrop_path": "/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
+        "first_air_date": "2005-09-19",
+        "id": 1100,
+        "name": "How I Met Your Mother",
+        "overview": "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
+        "poster_path": "/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
+        "vote_average": 8.124
+      }
+    ]
+  },
+  "content_ratings": {
+    "results": [
+      {
+        "descriptors": [],
+        "iso_3166_1": "DE",
+        "rating": "6"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "GB",
+        "rating": "15"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "US",
+        "rating": "TV-14"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "AU",
+        "rating": "PG"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "US",
+        "rating": "TV-PG"
+      }
+    ]
+  }
+}

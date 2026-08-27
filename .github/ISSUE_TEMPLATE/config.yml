@@ -1,0 +1,5 @@
+# Blank issues stay enabled on purpose - the support posture is "issues are
+# welcome anyway", and a form should never be the thing that stops a report.
+blank_issues_enabled: true
+# contact_links need absolute URLs. Once the repo is live, consider pointing
+# a "Setup help" link at GitHub Discussions here.

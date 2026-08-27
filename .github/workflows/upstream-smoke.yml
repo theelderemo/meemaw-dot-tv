@@ -1,0 +1,80 @@
+name: Upstream smoke
+
+on:
+  schedule:
+    - cron: "17 9 * * 1" 
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  TMDB_API_READ_TOKEN: ${{ secrets.TMDB_API_READ_TOKEN }}
+  TORRENTIO_CONFIG: ${{ secrets.TORRENTIO_CONFIG }}
+
+jobs:
+  smoke:
+    name: smoke:resolve (live)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check secrets
+        id: guard
+        run: |
+          if [ -n "$TMDB_API_READ_TOKEN" ] && [ -n "$TORRENTIO_CONFIG" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::TMDB_API_READ_TOKEN / TORRENTIO_CONFIG secrets not set - skipping the canary."
+          fi
+
+      - uses: actions/checkout@v5
+        if: steps.guard.outputs.run == 'true'
+
+      - uses: actions/setup-node@v5
+        if: steps.guard.outputs.run == 'true'
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install
+        if: steps.guard.outputs.run == 'true'
+        run: npm ci
+
+      - name: Run smoke:resolve
+        if: steps.guard.outputs.run == 'true'
+        id: smoke
+        run: |
+          # The npm script loads .env.local via --env-file; in CI the values
+          # come from the job env, so an empty file satisfies the flag.
+          touch .env.local
+          set -o pipefail
+          npm run smoke:resolve 2>&1 | tee smoke.log
+
+      - name: Open or update the tracking issue
+        if: failure() && steps.guard.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          title="Upstream smoke is failing (TMDB / Torrentio / Real-Debrid)"
+          {
+            echo "The weekly \`smoke:resolve\` canary failed. Something upstream moved."
+            echo
+            echo "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+            echo "Last lines (hosts only; the script never prints URLs or config):"
+            echo
+            echo '```'
+            tail -n 20 smoke.log 2>/dev/null || echo "(no log captured)"
+            echo '```'
+            echo
+            echo "Reproduce locally with a populated .env.local: \`npm run smoke:resolve\`"
+          } > body.md
+          num=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body-file body.md
+          else
+            gh label create upstream --description "Live-service drift (TMDB / Torrentio / Real-Debrid)" --color FBCA04 --force
+            gh issue create --title "$title" --label upstream --body-file body.md
+          fi

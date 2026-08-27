@@ -1,0 +1,6 @@
+# Link-checker exclusions (regex per line), used by .github/workflows/docs-links.yml.
+# Cloudflare-guarded hosts that 403 bots; both verified by hand instead.
+https?://(www\.)?real-debrid\.com.*
+https?://torrentio\.strem\.fun.*
+# Local dev addresses in setup docs.
+https?://localhost.*

@@ -1,0 +1,44 @@
+name: UI fidelity gap
+description: The mainstream streaming interface does X here; Meemaw does Y. The most welcome report there is.
+labels: [fidelity]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the contribution this project loves most. The whole UX strategy is
+        matching the interface a decade of mainstream streaming apps already taught
+        everyone - so "we quietly differ from the standard pattern" is a real bug,
+        even when our version looks fine. Background: [docs/reference/ui-fidelity.md](../blob/HEAD/docs/reference/ui-fidelity.md).
+
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app
+      placeholder: e.g. hover card on browse rows / player seekbar / detail modal episode list
+    validations:
+      required: true
+
+  - type: textarea
+    id: standard
+    attributes:
+      label: What the standard interface does
+      description: Name the mainstream app you compared against and describe the behavior - timings, order, wording, whatever you observed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: ours
+    attributes:
+      label: What Meemaw does instead
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Checked against the departures list
+      description: A handful of differences are deliberate and recorded (colors, logo, footer, Switch Streams, the Meemaw voice and loader).
+      options:
+        - label: This isn't on the recorded-departures list in docs/reference/ui-fidelity.md.
+          required: true
+        - label: I'd like to PR the fix myself.

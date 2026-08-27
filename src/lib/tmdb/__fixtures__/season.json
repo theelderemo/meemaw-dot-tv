@@ -1,0 +1,34 @@
+{
+  "id": 4573,
+  "name": "Season 1",
+  "season_number": 1,
+  "episodes": [
+    {
+      "id": 85987,
+      "episode_number": 1,
+      "air_date": "1994-09-22",
+      "name": "Pilot",
+      "overview": "After Rachel leaves her fiancé at the altar, she moves in with Monica and finds that independence is not so easy, particularly without Daddy's credit cards.",
+      "still_path": "/avlrGgZhwkszL6xxE2ThNFs3CZj.jpg",
+      "runtime": 23
+    },
+    {
+      "id": 86012,
+      "episode_number": 2,
+      "air_date": "1994-09-29",
+      "name": "The One with the Sonogram at the End",
+      "overview": "Ross's lesbian ex-wife Carol is pregnant with his child, and he doesn't like her choice of last name for the baby. Rachel finds out that her ex-fiancé went on what would have been their honeymoon with her maid of honor.",
+      "still_path": "/1tkibWEdFUGVu74odpuiednNgMX.jpg",
+      "runtime": 23
+    },
+    {
+      "id": 85981,
+      "episode_number": 3,
+      "air_date": "1994-10-06",
+      "name": "The One with the Thumb",
+      "overview": "Monica finds it difficult to break up with her latest boyfriend whom everyone likes; Chandler is reunited with his beloved cigarettes; Phoebe receives a large sum of money.",
+      "still_path": "/963xL8QC2In3dvb8ooWWA30M5JI.jpg",
+      "runtime": 23
+    }
+  ]
+}

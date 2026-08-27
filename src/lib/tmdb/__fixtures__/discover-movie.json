@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "id": 1284041,
+      "title": "The Last House",
+      "release_date": "2026-08-06",
+      "overview": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "poster_path": "/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+      "backdrop_path": "/1RhfevWmWCVHtEqxWBEjPOC5KG1.jpg",
+      "vote_average": 6.932
+    },
+    {
+      "id": 1323244,
+      "title": "Rage of Stars",
+      "release_date": "2026-08-06",
+      "overview": "A story about a woman from the International Special Forces Unit, who has a premonition about the impending end of humanity.",
+      "poster_path": "/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "backdrop_path": "/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+      "vote_average": 2.3
+    },
+    {
+      "id": 1339713,
+      "title": "Obsession",
+      "release_date": "2026-05-13",
+      "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+      "poster_path": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "backdrop_path": "/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+      "vote_average": 8.225
+    }
+  ]
+}

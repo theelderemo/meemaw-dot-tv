@@ -1,0 +1,13 @@
+.next/
+node_modules/
+package-lock.json
+
+# Hand-formatted prose - Prettier must not reformat it
+docs/
+internaldocs/
+CLAUDE.md
+README.md
+CONTRIBUTING.md
+
+# Rewritten by `next dev`
+AGENTS.md

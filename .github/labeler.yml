@@ -1,0 +1,54 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "docs/**"
+          - "*.md"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**"
+          - ".lycheeignore"
+
+player:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/components/watch/**"
+          - "src/app/(app)/watch/**"
+          - "src/lib/progress/**"
+
+browse:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/components/browse/**"
+          - "src/app/(app)/(browse)/**"
+
+streaming:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/lib/streaming/**"
+          - "scripts/smoke-streaming.mts"
+          - "scripts/smoke-resolve.mts"
+          - "scripts/capture-torrentio.mjs"
+
+tmdb:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/lib/tmdb/**"
+          - "scripts/smoke-tmdb.mjs"
+
+supabase:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/lib/supabase/**"
+          - "src/lib/db/**"
+          - "src/app/login/**"
+          - "src/app/(app)/(browse)/account/**"
+          - "src/app/profiles/**"
+          - "src/components/profiles/**"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "package-lock.json"

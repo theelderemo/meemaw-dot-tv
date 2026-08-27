@@ -1,0 +1,140 @@
+{
+  "id": 969681,
+  "title": "Spider-Man: Brand New Day",
+  "release_date": "2026-07-29",
+  "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him-and the pressure of seeing his old friends move on without him-sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+  "poster_path": "/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
+  "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+  "vote_average": 7.876,
+  "runtime": 145,
+  "genres": [
+    {
+      "name": "Science Fiction"
+    },
+    {
+      "name": "Action"
+    },
+    {
+      "name": "Adventure"
+    }
+  ],
+  "external_ids": {
+    "imdb_id": "tt22084616"
+  },
+  "credits": {
+    "cast": [
+      {
+        "id": 1136406,
+        "name": "Tom Holland",
+        "character": "Peter Parker / Spider-Man",
+        "profile_path": "/l6zPRmg8NI7Y65G5GUqwvjxFdsx.jpg"
+      },
+      {
+        "id": 505710,
+        "name": "Zendaya",
+        "character": "MJ",
+        "profile_path": "/1qup8tSt95HLbcy2c2xrx4iJNxv.jpg"
+      },
+      {
+        "id": 103,
+        "name": "Mark Ruffalo",
+        "character": "Bruce Banner / Hulk",
+        "profile_path": "/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+      }
+    ]
+  },
+  "recommendations": {
+    "results": [
+      {
+        "backdrop_path": "/uyrOU4BDm2kbVxFsMiDFIHDhc4d.jpg",
+        "id": 634649,
+        "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "release_date": "2021-12-15",
+        "title": "Spider-Man: No Way Home",
+        "vote_average": 7.941
+      },
+      {
+        "backdrop_path": "/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
+        "id": 102382,
+        "overview": "For Peter Parker, life is busy. Between taking out the bad guys as Spider-Man and spending time with the person he loves, Gwen Stacy, high school graduation cannot come quickly enough. Peter has not forgotten about the promise he made to Gwen’s father to protect her by staying away, but that is a promise he cannot keep. Things will change for Peter when a new villain, Electro, emerges, an old friend, Harry Osborn, returns, and Peter uncovers new clues about his past.",
+        "poster_path": "/dGjoPttcbKR5VWg1jQuNFB247KL.jpg",
+        "release_date": "2014-04-16",
+        "title": "The Amazing Spider-Man 2",
+        "vote_average": 6.557
+      }
+    ]
+  },
+  "release_dates": {
+    "results": [
+      {
+        "iso_3166_1": "CA",
+        "release_dates": [
+          {
+            "certification": "PG",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2026-07-31T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "GB",
+        "release_dates": [
+          {
+            "certification": "12A",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2026-07-29T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "US",
+        "release_dates": [
+          {
+            "certification": "PG-13",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "Los Angeles, California",
+            "release_date": "2026-07-27T00:00:00.000Z",
+            "type": 1
+          },
+          {
+            "certification": "PG-13",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "IMAX",
+            "release_date": "2026-08-06T00:00:00.000Z",
+            "type": 2
+          },
+          {
+            "certification": "PG-13",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2026-07-31T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      },
+      {
+        "iso_3166_1": "VE",
+        "release_dates": [
+          {
+            "certification": "",
+            "descriptors": [],
+            "iso_639_1": "",
+            "note": "",
+            "release_date": "2026-07-29T00:00:00.000Z",
+            "type": 3
+          }
+        ]
+      }
+    ]
+  }
+}

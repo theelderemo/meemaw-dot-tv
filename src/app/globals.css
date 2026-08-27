@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* The classic dark streaming palette, pink accent (ui-fidelity.md §Theming map). Dark-only. */
+@theme {
+  --color-background: #141414;
+  --color-background-elevated: #181818;
+  --color-primary: #e6067a;
+  --color-primary-hover: #c10565;
+  --color-primary-soft: #f472b6;
+  --color-foreground: #ffffff;
+  --color-muted: #b3b3b3;
+  --color-muted-dark: #808080;
+  --color-background-input: #333333;
+  --color-error: #e87c03;
+}
+
+@theme inline {
+  --font-sans: var(--font-roboto);
+  --font-display: var(--font-bebas-neue);
+}

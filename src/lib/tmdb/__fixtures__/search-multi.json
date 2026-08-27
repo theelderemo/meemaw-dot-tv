@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "media_type": "person",
+      "id": 31,
+      "name": "Tom Hanks"
+    },
+    {
+      "media_type": "movie",
+      "id": 728217,
+      "title": "Tom Hanks: A League of His Own",
+      "release_date": "2016-10-14",
+      "overview": "",
+      "poster_path": null,
+      "backdrop_path": null,
+      "vote_average": 8
+    },
+    {
+      "media_type": "tv",
+      "id": 316992,
+      "name": "World War II with Tom Hanks",
+      "first_air_date": "2026-05-25",
+      "overview": "Explores WWII from Germany's invasion of Poland through the atomic age, examining pivotal battles, wartime leaders like Churchill and Roosevelt, and the human cost of total war.",
+      "poster_path": "/kfedegQJ7cvPGOmqvkvVwrshpZy.jpg",
+      "backdrop_path": "/xVN8rq2VM9cvFmM0grv1AFnhO6d.jpg",
+      "vote_average": 8
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+name: Bug report
+description: Something misbehaved - playback, sign-in, browsing, anything.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Two things first:
+
+        1. The [troubleshooting guide](../blob/HEAD/docs/guides/troubleshooting.md) covers every error code the player shows - your answer may already be there.
+        2. 🔒 **Never paste secrets.** `TORRENTIO_CONFIG` embeds your Real-Debrid API key, and it hides in resolve URLs, logs, and screenshots of dashboards. Redact before posting.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, and what did the app do?
+      placeholder: Picked a movie from the billboard, player opened, then...
+    validations:
+      required: true
+
+  - type: input
+    id: error-code
+    attributes:
+      label: The small muted code (if the player showed one)
+      description: The player says what's wrong in two lines - the second line is for you.
+      placeholder: "e.g. NOT_CACHED · 404, PROVIDER_DOWN · 503, UNAUTHORIZED · 401"
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Playback is direct play (often MKV) - Safari and iOS can't play these streams, by upstream reality rather than by choice.
+      options:
+        - Chrome
+        - Firefox
+        - Safari / iOS (unsupported for playback - see docs/reference/stream-resolution.md)
+        - Other (say which below)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where it's running
+      options:
+        - Vercel deployment
+        - Another host
+        - Local dev (npm run dev)
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Browser console lines, timing, which title/row, whether it happens for every viewer, etc.
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before you send it
+      options:
+        - label: I checked the troubleshooting guide and searched existing issues.
+          required: true
+        - label: There are no secrets in this issue - no keys, no `TORRENTIO_CONFIG`, no unredacted URLs or screenshots.
+          required: true
