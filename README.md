@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.png" alt="Meemaw.tv" width="420">
+  <img src="https://github.com/user-attachments/assets/444a4c25-37a1-44d3-8c4e-56ebdff21a62" alt="Meemaw.tv" width="420">
 </p>
 
 <p align="center">
