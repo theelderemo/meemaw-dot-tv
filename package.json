@@ -17,22 +17,22 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@supabase/ssr": "^0.12.4",
+    "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.112.3",
-    "next": "16.3.2",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "zod": "^4.4.3"
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.6.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9.39.5",
-    "eslint-config-next": "16.3.2",
-    "lockfile-lint": "^5.0.1",
-    "prettier": "^3.9.6",
+    "eslint-config-next": "16.4.0",
+    "lockfile-lint": "^5.1.0",
+    "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4",
     "typescript": "^6.0.3",
